@@ -1,0 +1,220 @@
+{
+  "created_utc": "2026-10-25T15:15:05.905193+00:00",
+  "protocol_parameters": {
+    "max_skip": 2,
+    "direction": "both",
+    "alphabet": "hebrew",
+    "merge_final_forms": false,
+    "permutations": 0,
+    "null_models": [],
+    "block_size": 8,
+    "seed": 20261025,
+    "target_file": "targets.json",
+    "multiple_tests_family_size": null
+  },
+  "corpus": {
+    "source_file": "data\\torah_els.txt",
+    "source_sha256": "25ec653a8ace4263331f85048e5a3bf08487119f7d9cf6684e345eea7a149270",
+    "alphabet": "hebrew",
+    "normalization": "NFD; remove combining marks; retain Hebrew letters Alef through Tav, including final forms; remove all other characters",
+    "raw_bytes": 610345,
+    "normalized_length": 305172,
+    "alphabet_symbols": 27
+  },
+  "entropy_bits_per_symbol": {
+    "H0": 4.244882487958628,
+    "H1": 3.913979511817068,
+    "H2": 3.388020995124884,
+    "H3": 2.632688788166094
+  },
+  "terms": [
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "רבין",
+      "word": "רבין",
+      "original": "רבין",
+      "hits": 15,
+      "locations_sample": [
+        {
+          "start_zero_based": 18130,
+          "step": 1
+        },
+        {
+          "start_zero_based": 101244,
+          "step": 1
+        },
+        {
+          "start_zero_based": 101972,
+          "step": 1
+        },
+        {
+          "start_zero_based": 140355,
+          "step": 1
+        },
+        {
+          "start_zero_based": 141344,
+          "step": 1
+        }
+      ],
+      "iid_expected_hits": 5.624978980944477,
+      "iid_poisson_approx_p_at_least_one": 0.9963933610566368
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "קנדי",
+      "word": "קנדי",
+      "original": "קנדי",
+      "hits": 0,
+      "locations_sample": [],
+      "iid_expected_hits": 1.4553384782109,
+      "iid_poisson_approx_p_at_least_one": 0.7666786236679057
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "סאדאת",
+      "word": "סאדאת",
+      "original": "סאדאת",
+      "hits": 0,
+      "locations_sample": [],
+      "iid_expected_hits": 0.07845633282505955,
+      "iid_poisson_approx_p_at_least_one": 0.07545756879381967
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "היטלר",
+      "word": "היטלר",
+      "original": "היטלר",
+      "hits": 0,
+      "locations_sample": [],
+      "iid_expected_hits": 0.2895775020247439,
+      "iid_poisson_approx_p_at_least_one": 0.2514202257855469
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "שואה",
+      "word": "שואה",
+      "original": "שואה",
+      "hits": 23,
+      "locations_sample": [
+        {
+          "start_zero_based": 245563,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2162,
+          "step": 2
+        },
+        {
+          "start_zero_based": 10972,
+          "step": 2
+        },
+        {
+          "start_zero_based": 25326,
+          "step": 2
+        },
+        {
+          "start_zero_based": 35988,
+          "step": 2
+        }
+      ],
+      "iid_expected_hits": 51.085141544844156,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "תאומים",
+      "word": "תאומים",
+      "original": "תאומים",
+      "hits": 1,
+      "locations_sample": [
+        {
+          "start_zero_based": 57429,
+          "step": 1
+        }
+      ],
+      "iid_expected_hits": 0.10934403429955021,
+      "iid_poisson_approx_p_at_least_one": 0.10357803546059273
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "מטוס",
+      "word": "מטוס",
+      "original": "מטוס",
+      "hits": 1,
+      "locations_sample": [
+        {
+          "start_zero_based": 274427,
+          "step": -1
+        }
+      ],
+      "iid_expected_hits": 0.20666321384756325,
+      "iid_poisson_approx_p_at_least_one": 0.18670649013913626
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "אש",
+      "word": "אש",
+      "original": "אש",
+      "hits": 6652,
+      "locations_sample": [
+        {
+          "start_zero_based": 2,
+          "step": 1
+        },
+        {
+          "start_zero_based": 269,
+          "step": 1
+        },
+        {
+          "start_zero_based": 289,
+          "step": 1
+        },
+        {
+          "start_zero_based": 494,
+          "step": 1
+        },
+        {
+          "start_zero_based": 553,
+          "step": 1
+        }
+      ],
+      "iid_expected_hits": 5536.676611695243,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Offline smoke-test example terms",
+      "label": "נפל",
+      "word": "נפל",
+      "original": "נפל",
+      "hits": 524,
+      "locations_sample": [
+        {
+          "start_zero_based": 4460,
+          "step": 1
+        },
+        {
+          "start_zero_based": 6969,
+          "step": 1
+        },
+        {
+          "start_zero_based": 12447,
+          "step": 1
+        },
+        {
+          "start_zero_based": 17881,
+          "step": 1
+        },
+        {
+          "start_zero_based": 17907,
+          "step": 1
+        }
+      ],
+      "iid_expected_hits": 36.44826982413548,
+      "iid_poisson_approx_p_at_least_one": 0.9999999999999999
+    }
+  ],
+  "null_model_results": [],
+  "notes": [
+    "Small offline smoke test with max_skip=2. This validates local file loading and report generation only; it is not a statistical analysis."
+  ]
+}

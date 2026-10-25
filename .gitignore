@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.vscode/
+.idea/
+
+# Portuguese working notes retained locally, excluded from the English publication.
+/readme.txt
+/conclusao.md
+/results/analysis_20261025_123427_resumo.md
+/results/final/*_source.json
+/results/preliminary/*_source.json
+/results/validation/*_source.json

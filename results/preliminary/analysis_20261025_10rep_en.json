@@ -1,0 +1,3942 @@
+{
+  "created_utc": "2026-10-25T15:52:34.392757+00:00",
+  "protocol_parameters": {
+    "max_skip": 1000,
+    "direction": "both",
+    "alphabet": "hebrew",
+    "merge_final_forms": false,
+    "permutations": 10,
+    "null_models": "iid_perm,block_perm,markov",
+    "block_size": 20,
+    "seed": 20261025,
+    "workers": 12,
+    "available_logical_processors": 12,
+    "target_file": "targets.json",
+    "multiple_tests_family_size": null
+  },
+  "corpus": {
+    "source_file": "C:\\008-BibleCode\\data\\torah_els.txt",
+    "source_sha256": "25ec653a8ace4263331f85048e5a3bf08487119f7d9cf6684e345eea7a149270",
+    "alphabet": "hebrew",
+    "normalization": "NFD; remove combining marks; retain Hebrew letters Alef through Tav, including final forms; remove all other characters",
+    "raw_bytes": 610345,
+    "normalized_length": 305172,
+    "alphabet_symbols": 27
+  },
+  "entropy_bits_per_symbol": {
+    "H0": 4.244882487958628,
+    "H1": 3.913979511817068,
+    "H2": 3.388020995124884,
+    "H3": 2.632688788166094
+  },
+  "terms": [
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "רבין",
+      "word": "רבין",
+      "original": "רבין",
+      "hits": 2712,
+      "locations_sample": [
+        {
+          "start_zero_based": 18130,
+          "step": 1
+        },
+        {
+          "start_zero_based": 101244,
+          "step": 1
+        },
+        {
+          "start_zero_based": 101972,
+          "step": 1
+        },
+        {
+          "start_zero_based": 140355,
+          "step": 1
+        },
+        {
+          "start_zero_based": 141344,
+          "step": 1
+        },
+        {
+          "start_zero_based": 186452,
+          "step": 1
+        },
+        {
+          "start_zero_based": 265103,
+          "step": 1
+        },
+        {
+          "start_zero_based": 69562,
+          "step": 2
+        },
+        {
+          "start_zero_based": 71347,
+          "step": 2
+        },
+        {
+          "start_zero_based": 186931,
+          "step": 2
+        },
+        {
+          "start_zero_based": 77200,
+          "step": 3
+        },
+        {
+          "start_zero_based": 77325,
+          "step": 3
+        },
+        {
+          "start_zero_based": 255188,
+          "step": 3
+        },
+        {
+          "start_zero_based": 256246,
+          "step": 3
+        },
+        {
+          "start_zero_based": 259565,
+          "step": 3
+        },
+        {
+          "start_zero_based": 76094,
+          "step": 5
+        },
+        {
+          "start_zero_based": 270206,
+          "step": 5
+        },
+        {
+          "start_zero_based": 28788,
+          "step": 6
+        },
+        {
+          "start_zero_based": 14923,
+          "step": 7
+        },
+        {
+          "start_zero_based": 191963,
+          "step": 7
+        },
+        {
+          "start_zero_based": 224299,
+          "step": 7
+        },
+        {
+          "start_zero_based": 146092,
+          "step": 11
+        },
+        {
+          "start_zero_based": 289368,
+          "step": 11
+        },
+        {
+          "start_zero_based": 142176,
+          "step": 13
+        },
+        {
+          "start_zero_based": 281961,
+          "step": 13
+        },
+        {
+          "start_zero_based": 230827,
+          "step": 16
+        },
+        {
+          "start_zero_based": 229261,
+          "step": 17
+        },
+        {
+          "start_zero_based": 178037,
+          "step": 18
+        },
+        {
+          "start_zero_based": 60794,
+          "step": 19
+        },
+        {
+          "start_zero_based": 20421,
+          "step": 22
+        },
+        {
+          "start_zero_based": 570,
+          "step": 23
+        },
+        {
+          "start_zero_based": 92202,
+          "step": 23
+        },
+        {
+          "start_zero_based": 34451,
+          "step": 24
+        },
+        {
+          "start_zero_based": 77137,
+          "step": 24
+        },
+        {
+          "start_zero_based": 36163,
+          "step": 27
+        },
+        {
+          "start_zero_based": 204990,
+          "step": 27
+        },
+        {
+          "start_zero_based": 231045,
+          "step": 27
+        },
+        {
+          "start_zero_based": 174118,
+          "step": 28
+        },
+        {
+          "start_zero_based": 199526,
+          "step": 28
+        },
+        {
+          "start_zero_based": 209783,
+          "step": 28
+        },
+        {
+          "start_zero_based": 135472,
+          "step": 29
+        },
+        {
+          "start_zero_based": 153441,
+          "step": 30
+        },
+        {
+          "start_zero_based": 225922,
+          "step": 30
+        },
+        {
+          "start_zero_based": 304861,
+          "step": 30
+        },
+        {
+          "start_zero_based": 95813,
+          "step": 31
+        },
+        {
+          "start_zero_based": 15326,
+          "step": 33
+        },
+        {
+          "start_zero_based": 27844,
+          "step": 33
+        },
+        {
+          "start_zero_based": 59695,
+          "step": 33
+        },
+        {
+          "start_zero_based": 190768,
+          "step": 34
+        },
+        {
+          "start_zero_based": 231578,
+          "step": 34
+        },
+        {
+          "start_zero_based": 53364,
+          "step": 35
+        },
+        {
+          "start_zero_based": 40530,
+          "step": 36
+        },
+        {
+          "start_zero_based": 131316,
+          "step": 36
+        },
+        {
+          "start_zero_based": 77098,
+          "step": 37
+        },
+        {
+          "start_zero_based": 90536,
+          "step": 37
+        },
+        {
+          "start_zero_based": 36130,
+          "step": 38
+        },
+        {
+          "start_zero_based": 39974,
+          "step": 38
+        },
+        {
+          "start_zero_based": 74977,
+          "step": 39
+        },
+        {
+          "start_zero_based": 163487,
+          "step": 40
+        },
+        {
+          "start_zero_based": 148408,
+          "step": 41
+        },
+        {
+          "start_zero_based": 204757,
+          "step": 41
+        },
+        {
+          "start_zero_based": 31898,
+          "step": 42
+        },
+        {
+          "start_zero_based": 36828,
+          "step": 43
+        },
+        {
+          "start_zero_based": 35177,
+          "step": 44
+        },
+        {
+          "start_zero_based": 286578,
+          "step": 44
+        },
+        {
+          "start_zero_based": 43246,
+          "step": 45
+        },
+        {
+          "start_zero_based": 61928,
+          "step": 45
+        },
+        {
+          "start_zero_based": 142677,
+          "step": 45
+        },
+        {
+          "start_zero_based": 197472,
+          "step": 45
+        },
+        {
+          "start_zero_based": 95,
+          "step": 46
+        },
+        {
+          "start_zero_based": 1036,
+          "step": 47
+        },
+        {
+          "start_zero_based": 160223,
+          "step": 47
+        },
+        {
+          "start_zero_based": 243973,
+          "step": 47
+        },
+        {
+          "start_zero_based": 257814,
+          "step": 48
+        },
+        {
+          "start_zero_based": 11720,
+          "step": 50
+        },
+        {
+          "start_zero_based": 145616,
+          "step": 50
+        },
+        {
+          "start_zero_based": 130811,
+          "step": 51
+        },
+        {
+          "start_zero_based": 203316,
+          "step": 51
+        },
+        {
+          "start_zero_based": 20664,
+          "step": 52
+        },
+        {
+          "start_zero_based": 40794,
+          "step": 52
+        },
+        {
+          "start_zero_based": 23805,
+          "step": 53
+        },
+        {
+          "start_zero_based": 160903,
+          "step": 54
+        },
+        {
+          "start_zero_based": 45991,
+          "step": 55
+        },
+        {
+          "start_zero_based": 185412,
+          "step": 56
+        },
+        {
+          "start_zero_based": 30655,
+          "step": 57
+        },
+        {
+          "start_zero_based": 180653,
+          "step": 57
+        },
+        {
+          "start_zero_based": 224679,
+          "step": 59
+        },
+        {
+          "start_zero_based": 78619,
+          "step": 60
+        },
+        {
+          "start_zero_based": 45701,
+          "step": 62
+        },
+        {
+          "start_zero_based": 206037,
+          "step": 63
+        },
+        {
+          "start_zero_based": 296715,
+          "step": 63
+        },
+        {
+          "start_zero_based": 64460,
+          "step": 65
+        },
+        {
+          "start_zero_based": 73602,
+          "step": 65
+        },
+        {
+          "start_zero_based": 217506,
+          "step": 65
+        },
+        {
+          "start_zero_based": 270564,
+          "step": 65
+        },
+        {
+          "start_zero_based": 99028,
+          "step": 66
+        },
+        {
+          "start_zero_based": 108875,
+          "step": 66
+        },
+        {
+          "start_zero_based": 116707,
+          "step": 66
+        },
+        {
+          "start_zero_based": 75642,
+          "step": 67
+        },
+        {
+          "start_zero_based": 158827,
+          "step": 67
+        }
+      ],
+      "iid_expected_hits": 2798.6928156387885,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "קנדי",
+      "word": "קנדי",
+      "original": "קנדי",
+      "hits": 768,
+      "locations_sample": [
+        {
+          "start_zero_based": 171939,
+          "step": 3
+        },
+        {
+          "start_zero_based": 30541,
+          "step": 5
+        },
+        {
+          "start_zero_based": 45430,
+          "step": 5
+        },
+        {
+          "start_zero_based": 168781,
+          "step": 8
+        },
+        {
+          "start_zero_based": 80800,
+          "step": 10
+        },
+        {
+          "start_zero_based": 281246,
+          "step": 12
+        },
+        {
+          "start_zero_based": 116434,
+          "step": 13
+        },
+        {
+          "start_zero_based": 116636,
+          "step": 13
+        },
+        {
+          "start_zero_based": 134262,
+          "step": 13
+        },
+        {
+          "start_zero_based": 296038,
+          "step": 14
+        },
+        {
+          "start_zero_based": 42631,
+          "step": 15
+        },
+        {
+          "start_zero_based": 5374,
+          "step": 28
+        },
+        {
+          "start_zero_based": 251362,
+          "step": 32
+        },
+        {
+          "start_zero_based": 193704,
+          "step": 38
+        },
+        {
+          "start_zero_based": 106636,
+          "step": 48
+        },
+        {
+          "start_zero_based": 43310,
+          "step": 55
+        },
+        {
+          "start_zero_based": 65652,
+          "step": 55
+        },
+        {
+          "start_zero_based": 281454,
+          "step": 56
+        },
+        {
+          "start_zero_based": 103496,
+          "step": 57
+        },
+        {
+          "start_zero_based": 175504,
+          "step": 60
+        },
+        {
+          "start_zero_based": 4927,
+          "step": 62
+        },
+        {
+          "start_zero_based": 255585,
+          "step": 63
+        },
+        {
+          "start_zero_based": 57374,
+          "step": 64
+        },
+        {
+          "start_zero_based": 262300,
+          "step": 64
+        },
+        {
+          "start_zero_based": 51962,
+          "step": 68
+        },
+        {
+          "start_zero_based": 36990,
+          "step": 69
+        },
+        {
+          "start_zero_based": 36773,
+          "step": 70
+        },
+        {
+          "start_zero_based": 288362,
+          "step": 71
+        },
+        {
+          "start_zero_based": 106055,
+          "step": 73
+        },
+        {
+          "start_zero_based": 106636,
+          "step": 73
+        },
+        {
+          "start_zero_based": 148348,
+          "step": 77
+        },
+        {
+          "start_zero_based": 106593,
+          "step": 81
+        },
+        {
+          "start_zero_based": 256953,
+          "step": 82
+        },
+        {
+          "start_zero_based": 111987,
+          "step": 86
+        },
+        {
+          "start_zero_based": 174572,
+          "step": 87
+        },
+        {
+          "start_zero_based": 2577,
+          "step": 89
+        },
+        {
+          "start_zero_based": 4865,
+          "step": 93
+        },
+        {
+          "start_zero_based": 140279,
+          "step": 97
+        },
+        {
+          "start_zero_based": 150950,
+          "step": 97
+        },
+        {
+          "start_zero_based": 68510,
+          "step": 109
+        },
+        {
+          "start_zero_based": 300348,
+          "step": 109
+        },
+        {
+          "start_zero_based": 121566,
+          "step": 112
+        },
+        {
+          "start_zero_based": 45897,
+          "step": 113
+        },
+        {
+          "start_zero_based": 88857,
+          "step": 113
+        },
+        {
+          "start_zero_based": 149357,
+          "step": 115
+        },
+        {
+          "start_zero_based": 37678,
+          "step": 116
+        },
+        {
+          "start_zero_based": 273547,
+          "step": 118
+        },
+        {
+          "start_zero_based": 26349,
+          "step": 119
+        },
+        {
+          "start_zero_based": 123845,
+          "step": 119
+        },
+        {
+          "start_zero_based": 93144,
+          "step": 120
+        },
+        {
+          "start_zero_based": 204079,
+          "step": 122
+        },
+        {
+          "start_zero_based": 200741,
+          "step": 126
+        },
+        {
+          "start_zero_based": 283000,
+          "step": 126
+        },
+        {
+          "start_zero_based": 72936,
+          "step": 127
+        },
+        {
+          "start_zero_based": 76952,
+          "step": 128
+        },
+        {
+          "start_zero_based": 201240,
+          "step": 130
+        },
+        {
+          "start_zero_based": 235676,
+          "step": 130
+        },
+        {
+          "start_zero_based": 184989,
+          "step": 132
+        },
+        {
+          "start_zero_based": 230190,
+          "step": 134
+        },
+        {
+          "start_zero_based": 18939,
+          "step": 138
+        },
+        {
+          "start_zero_based": 155132,
+          "step": 139
+        },
+        {
+          "start_zero_based": 199389,
+          "step": 139
+        },
+        {
+          "start_zero_based": 200151,
+          "step": 139
+        },
+        {
+          "start_zero_based": 232573,
+          "step": 139
+        },
+        {
+          "start_zero_based": 247185,
+          "step": 139
+        },
+        {
+          "start_zero_based": 197060,
+          "step": 142
+        },
+        {
+          "start_zero_based": 12606,
+          "step": 144
+        },
+        {
+          "start_zero_based": 130277,
+          "step": 144
+        },
+        {
+          "start_zero_based": 208165,
+          "step": 144
+        },
+        {
+          "start_zero_based": 189287,
+          "step": 149
+        },
+        {
+          "start_zero_based": 30137,
+          "step": 150
+        },
+        {
+          "start_zero_based": 139615,
+          "step": 152
+        },
+        {
+          "start_zero_based": 57161,
+          "step": 156
+        },
+        {
+          "start_zero_based": 234025,
+          "step": 158
+        },
+        {
+          "start_zero_based": 198777,
+          "step": 162
+        },
+        {
+          "start_zero_based": 147769,
+          "step": 163
+        },
+        {
+          "start_zero_based": 189191,
+          "step": 163
+        },
+        {
+          "start_zero_based": 33120,
+          "step": 164
+        },
+        {
+          "start_zero_based": 116778,
+          "step": 164
+        },
+        {
+          "start_zero_based": 94194,
+          "step": 165
+        },
+        {
+          "start_zero_based": 171596,
+          "step": 171
+        },
+        {
+          "start_zero_based": 32572,
+          "step": 172
+        },
+        {
+          "start_zero_based": 4750,
+          "step": 174
+        },
+        {
+          "start_zero_based": 25636,
+          "step": 177
+        },
+        {
+          "start_zero_based": 266109,
+          "step": 179
+        },
+        {
+          "start_zero_based": 23009,
+          "step": 180
+        },
+        {
+          "start_zero_based": 219474,
+          "step": 185
+        },
+        {
+          "start_zero_based": 49074,
+          "step": 191
+        },
+        {
+          "start_zero_based": 47893,
+          "step": 194
+        },
+        {
+          "start_zero_based": 122571,
+          "step": 194
+        },
+        {
+          "start_zero_based": 68129,
+          "step": 205
+        },
+        {
+          "start_zero_based": 30382,
+          "step": 206
+        },
+        {
+          "start_zero_based": 52954,
+          "step": 211
+        },
+        {
+          "start_zero_based": 44137,
+          "step": 213
+        },
+        {
+          "start_zero_based": 29682,
+          "step": 215
+        },
+        {
+          "start_zero_based": 178809,
+          "step": 219
+        },
+        {
+          "start_zero_based": 194855,
+          "step": 223
+        },
+        {
+          "start_zero_based": 276241,
+          "step": 233
+        },
+        {
+          "start_zero_based": 101839,
+          "step": 235
+        },
+        {
+          "start_zero_based": 36903,
+          "step": 236
+        }
+      ],
+      "iid_expected_hits": 724.0996556768711,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "סאדאת",
+      "word": "סאדאת",
+      "original": "סאדאת",
+      "hits": 40,
+      "locations_sample": [
+        {
+          "start_zero_based": 66372,
+          "step": -11
+        },
+        {
+          "start_zero_based": 131725,
+          "step": -15
+        },
+        {
+          "start_zero_based": 216695,
+          "step": -27
+        },
+        {
+          "start_zero_based": 40528,
+          "step": 42
+        },
+        {
+          "start_zero_based": 185694,
+          "step": 59
+        },
+        {
+          "start_zero_based": 231064,
+          "step": 81
+        },
+        {
+          "start_zero_based": 226480,
+          "step": 109
+        },
+        {
+          "start_zero_based": 269007,
+          "step": -136
+        },
+        {
+          "start_zero_based": 298921,
+          "step": -140
+        },
+        {
+          "start_zero_based": 209565,
+          "step": -172
+        },
+        {
+          "start_zero_based": 259234,
+          "step": 243
+        },
+        {
+          "start_zero_based": 254109,
+          "step": 322
+        },
+        {
+          "start_zero_based": 267905,
+          "step": 375
+        },
+        {
+          "start_zero_based": 147021,
+          "step": -382
+        },
+        {
+          "start_zero_based": 260142,
+          "step": 457
+        },
+        {
+          "start_zero_based": 193370,
+          "step": -495
+        },
+        {
+          "start_zero_based": 281473,
+          "step": -495
+        },
+        {
+          "start_zero_based": 264271,
+          "step": 499
+        },
+        {
+          "start_zero_based": 47210,
+          "step": 508
+        },
+        {
+          "start_zero_based": 167768,
+          "step": 588
+        },
+        {
+          "start_zero_based": 32167,
+          "step": -645
+        },
+        {
+          "start_zero_based": 39215,
+          "step": -687
+        },
+        {
+          "start_zero_based": 130109,
+          "step": 728
+        },
+        {
+          "start_zero_based": 123266,
+          "step": -734
+        },
+        {
+          "start_zero_based": 249670,
+          "step": 742
+        },
+        {
+          "start_zero_based": 298921,
+          "step": -746
+        },
+        {
+          "start_zero_based": 72848,
+          "step": -748
+        },
+        {
+          "start_zero_based": 58673,
+          "step": -763
+        },
+        {
+          "start_zero_based": 67259,
+          "step": -782
+        },
+        {
+          "start_zero_based": 135619,
+          "step": 803
+        },
+        {
+          "start_zero_based": 204583,
+          "step": 804
+        },
+        {
+          "start_zero_based": 187580,
+          "step": -862
+        },
+        {
+          "start_zero_based": 161173,
+          "step": -891
+        },
+        {
+          "start_zero_based": 244014,
+          "step": 893
+        },
+        {
+          "start_zero_based": 54987,
+          "step": 904
+        },
+        {
+          "start_zero_based": 58955,
+          "step": -904
+        },
+        {
+          "start_zero_based": 201207,
+          "step": 906
+        },
+        {
+          "start_zero_based": 20481,
+          "step": 940
+        },
+        {
+          "start_zero_based": 185820,
+          "step": 945
+        },
+        {
+          "start_zero_based": 280670,
+          "step": -951
+        }
+      ],
+      "iid_expected_hits": 38.9715866488621,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "היטלר",
+      "word": "היטלר",
+      "original": "היטלר",
+      "hits": 150,
+      "locations_sample": [
+        {
+          "start_zero_based": 221534,
+          "step": -3
+        },
+        {
+          "start_zero_based": 155529,
+          "step": -9
+        },
+        {
+          "start_zero_based": 17192,
+          "step": 19
+        },
+        {
+          "start_zero_based": 268524,
+          "step": 22
+        },
+        {
+          "start_zero_based": 156586,
+          "step": -22
+        },
+        {
+          "start_zero_based": 265955,
+          "step": 30
+        },
+        {
+          "start_zero_based": 202772,
+          "step": 39
+        },
+        {
+          "start_zero_based": 84787,
+          "step": -44
+        },
+        {
+          "start_zero_based": 278564,
+          "step": 72
+        },
+        {
+          "start_zero_based": 79547,
+          "step": 86
+        },
+        {
+          "start_zero_based": 218252,
+          "step": 92
+        },
+        {
+          "start_zero_based": 105817,
+          "step": -94
+        },
+        {
+          "start_zero_based": 166901,
+          "step": -97
+        },
+        {
+          "start_zero_based": 69808,
+          "step": 117
+        },
+        {
+          "start_zero_based": 209651,
+          "step": 130
+        },
+        {
+          "start_zero_based": 93013,
+          "step": -135
+        },
+        {
+          "start_zero_based": 148529,
+          "step": -138
+        },
+        {
+          "start_zero_based": 30195,
+          "step": -144
+        },
+        {
+          "start_zero_based": 194129,
+          "step": -152
+        },
+        {
+          "start_zero_based": 109658,
+          "step": 160
+        },
+        {
+          "start_zero_based": 217664,
+          "step": -161
+        },
+        {
+          "start_zero_based": 92734,
+          "step": -173
+        },
+        {
+          "start_zero_based": 86687,
+          "step": 175
+        },
+        {
+          "start_zero_based": 2262,
+          "step": -183
+        },
+        {
+          "start_zero_based": 274939,
+          "step": -185
+        },
+        {
+          "start_zero_based": 289035,
+          "step": 187
+        },
+        {
+          "start_zero_based": 92306,
+          "step": -198
+        },
+        {
+          "start_zero_based": 145594,
+          "step": -206
+        },
+        {
+          "start_zero_based": 297932,
+          "step": 218
+        },
+        {
+          "start_zero_based": 15631,
+          "step": -219
+        },
+        {
+          "start_zero_based": 125813,
+          "step": -224
+        },
+        {
+          "start_zero_based": 42859,
+          "step": -225
+        },
+        {
+          "start_zero_based": 162478,
+          "step": -240
+        },
+        {
+          "start_zero_based": 87153,
+          "step": -241
+        },
+        {
+          "start_zero_based": 156805,
+          "step": -241
+        },
+        {
+          "start_zero_based": 187799,
+          "step": -247
+        },
+        {
+          "start_zero_based": 246484,
+          "step": 249
+        },
+        {
+          "start_zero_based": 240961,
+          "step": -261
+        },
+        {
+          "start_zero_based": 57074,
+          "step": 271
+        },
+        {
+          "start_zero_based": 3690,
+          "step": -275
+        },
+        {
+          "start_zero_based": 157251,
+          "step": 279
+        },
+        {
+          "start_zero_based": 259878,
+          "step": 282
+        },
+        {
+          "start_zero_based": 36005,
+          "step": 286
+        },
+        {
+          "start_zero_based": 118662,
+          "step": 293
+        },
+        {
+          "start_zero_based": 167595,
+          "step": -293
+        },
+        {
+          "start_zero_based": 149528,
+          "step": 295
+        },
+        {
+          "start_zero_based": 303195,
+          "step": 299
+        },
+        {
+          "start_zero_based": 136775,
+          "step": 324
+        },
+        {
+          "start_zero_based": 174325,
+          "step": 336
+        },
+        {
+          "start_zero_based": 218952,
+          "step": 347
+        },
+        {
+          "start_zero_based": 278692,
+          "step": 351
+        },
+        {
+          "start_zero_based": 274840,
+          "step": 357
+        },
+        {
+          "start_zero_based": 196663,
+          "step": -358
+        },
+        {
+          "start_zero_based": 134303,
+          "step": 360
+        },
+        {
+          "start_zero_based": 274036,
+          "step": 366
+        },
+        {
+          "start_zero_based": 271021,
+          "step": 375
+        },
+        {
+          "start_zero_based": 163437,
+          "step": 378
+        },
+        {
+          "start_zero_based": 157998,
+          "step": -404
+        },
+        {
+          "start_zero_based": 164760,
+          "step": 407
+        },
+        {
+          "start_zero_based": 160305,
+          "step": -421
+        },
+        {
+          "start_zero_based": 139590,
+          "step": -424
+        },
+        {
+          "start_zero_based": 44657,
+          "step": 427
+        },
+        {
+          "start_zero_based": 135662,
+          "step": 432
+        },
+        {
+          "start_zero_based": 58715,
+          "step": 440
+        },
+        {
+          "start_zero_based": 179903,
+          "step": -474
+        },
+        {
+          "start_zero_based": 203791,
+          "step": -478
+        },
+        {
+          "start_zero_based": 156719,
+          "step": 485
+        },
+        {
+          "start_zero_based": 301510,
+          "step": 502
+        },
+        {
+          "start_zero_based": 225674,
+          "step": -502
+        },
+        {
+          "start_zero_based": 222370,
+          "step": -503
+        },
+        {
+          "start_zero_based": 279741,
+          "step": 509
+        },
+        {
+          "start_zero_based": 93989,
+          "step": -516
+        },
+        {
+          "start_zero_based": 23260,
+          "step": -517
+        },
+        {
+          "start_zero_based": 207132,
+          "step": -517
+        },
+        {
+          "start_zero_based": 222172,
+          "step": 529
+        },
+        {
+          "start_zero_based": 118654,
+          "step": -535
+        },
+        {
+          "start_zero_based": 259370,
+          "step": 536
+        },
+        {
+          "start_zero_based": 143464,
+          "step": 538
+        },
+        {
+          "start_zero_based": 126353,
+          "step": -543
+        },
+        {
+          "start_zero_based": 145520,
+          "step": 545
+        },
+        {
+          "start_zero_based": 248544,
+          "step": -548
+        },
+        {
+          "start_zero_based": 283059,
+          "step": -555
+        },
+        {
+          "start_zero_based": 208212,
+          "step": -561
+        },
+        {
+          "start_zero_based": 147959,
+          "step": -570
+        },
+        {
+          "start_zero_based": 265955,
+          "step": -570
+        },
+        {
+          "start_zero_based": 213401,
+          "step": 577
+        },
+        {
+          "start_zero_based": 290377,
+          "step": 578
+        },
+        {
+          "start_zero_based": 253396,
+          "step": 581
+        },
+        {
+          "start_zero_based": 166140,
+          "step": -584
+        },
+        {
+          "start_zero_based": 151292,
+          "step": -587
+        },
+        {
+          "start_zero_based": 88107,
+          "step": -592
+        },
+        {
+          "start_zero_based": 24280,
+          "step": -601
+        },
+        {
+          "start_zero_based": 253557,
+          "step": -612
+        },
+        {
+          "start_zero_based": 166049,
+          "step": -618
+        },
+        {
+          "start_zero_based": 284954,
+          "step": 619
+        },
+        {
+          "start_zero_based": 106915,
+          "step": -622
+        },
+        {
+          "start_zero_based": 205925,
+          "step": 628
+        },
+        {
+          "start_zero_based": 249796,
+          "step": 648
+        },
+        {
+          "start_zero_based": 277982,
+          "step": -648
+        },
+        {
+          "start_zero_based": 41669,
+          "step": 661
+        }
+      ],
+      "iid_expected_hits": 143.84173087572276,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "שואה",
+      "word": "שואה",
+      "original": "שואה",
+      "hits": 25148,
+      "locations_sample": [
+        {
+          "start_zero_based": 245563,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2162,
+          "step": 2
+        },
+        {
+          "start_zero_based": 10972,
+          "step": 2
+        },
+        {
+          "start_zero_based": 25326,
+          "step": 2
+        },
+        {
+          "start_zero_based": 35988,
+          "step": 2
+        },
+        {
+          "start_zero_based": 100404,
+          "step": 2
+        },
+        {
+          "start_zero_based": 259360,
+          "step": 2
+        },
+        {
+          "start_zero_based": 285384,
+          "step": 2
+        },
+        {
+          "start_zero_based": 24440,
+          "step": 3
+        },
+        {
+          "start_zero_based": 25013,
+          "step": 3
+        },
+        {
+          "start_zero_based": 125441,
+          "step": 3
+        },
+        {
+          "start_zero_based": 165195,
+          "step": 3
+        },
+        {
+          "start_zero_based": 293290,
+          "step": 3
+        },
+        {
+          "start_zero_based": 299790,
+          "step": 3
+        },
+        {
+          "start_zero_based": 17,
+          "step": 4
+        },
+        {
+          "start_zero_based": 17810,
+          "step": 4
+        },
+        {
+          "start_zero_based": 19956,
+          "step": 4
+        },
+        {
+          "start_zero_based": 37569,
+          "step": 4
+        },
+        {
+          "start_zero_based": 50488,
+          "step": 4
+        },
+        {
+          "start_zero_based": 59961,
+          "step": 4
+        },
+        {
+          "start_zero_based": 93099,
+          "step": 4
+        },
+        {
+          "start_zero_based": 95888,
+          "step": 4
+        },
+        {
+          "start_zero_based": 106799,
+          "step": 4
+        },
+        {
+          "start_zero_based": 118685,
+          "step": 4
+        },
+        {
+          "start_zero_based": 135049,
+          "step": 4
+        },
+        {
+          "start_zero_based": 135535,
+          "step": 4
+        },
+        {
+          "start_zero_based": 136247,
+          "step": 4
+        },
+        {
+          "start_zero_based": 145025,
+          "step": 4
+        },
+        {
+          "start_zero_based": 156615,
+          "step": 4
+        },
+        {
+          "start_zero_based": 159082,
+          "step": 4
+        },
+        {
+          "start_zero_based": 217399,
+          "step": 4
+        },
+        {
+          "start_zero_based": 254243,
+          "step": 4
+        },
+        {
+          "start_zero_based": 267563,
+          "step": 4
+        },
+        {
+          "start_zero_based": 278279,
+          "step": 4
+        },
+        {
+          "start_zero_based": 280437,
+          "step": 4
+        },
+        {
+          "start_zero_based": 5872,
+          "step": 5
+        },
+        {
+          "start_zero_based": 32820,
+          "step": 5
+        },
+        {
+          "start_zero_based": 46885,
+          "step": 5
+        },
+        {
+          "start_zero_based": 60805,
+          "step": 5
+        },
+        {
+          "start_zero_based": 66461,
+          "step": 5
+        },
+        {
+          "start_zero_based": 106502,
+          "step": 5
+        },
+        {
+          "start_zero_based": 123931,
+          "step": 5
+        },
+        {
+          "start_zero_based": 175083,
+          "step": 5
+        },
+        {
+          "start_zero_based": 203866,
+          "step": 5
+        },
+        {
+          "start_zero_based": 206958,
+          "step": 5
+        },
+        {
+          "start_zero_based": 211920,
+          "step": 5
+        },
+        {
+          "start_zero_based": 216238,
+          "step": 5
+        },
+        {
+          "start_zero_based": 252565,
+          "step": 5
+        },
+        {
+          "start_zero_based": 259278,
+          "step": 5
+        },
+        {
+          "start_zero_based": 280201,
+          "step": 5
+        },
+        {
+          "start_zero_based": 25181,
+          "step": 6
+        },
+        {
+          "start_zero_based": 122770,
+          "step": 6
+        },
+        {
+          "start_zero_based": 164503,
+          "step": 6
+        },
+        {
+          "start_zero_based": 180784,
+          "step": 6
+        },
+        {
+          "start_zero_based": 186133,
+          "step": 6
+        },
+        {
+          "start_zero_based": 188409,
+          "step": 6
+        },
+        {
+          "start_zero_based": 227532,
+          "step": 6
+        },
+        {
+          "start_zero_based": 242360,
+          "step": 6
+        },
+        {
+          "start_zero_based": 295155,
+          "step": 6
+        },
+        {
+          "start_zero_based": 43694,
+          "step": 7
+        },
+        {
+          "start_zero_based": 82568,
+          "step": 7
+        },
+        {
+          "start_zero_based": 113268,
+          "step": 7
+        },
+        {
+          "start_zero_based": 125086,
+          "step": 7
+        },
+        {
+          "start_zero_based": 141499,
+          "step": 7
+        },
+        {
+          "start_zero_based": 172777,
+          "step": 7
+        },
+        {
+          "start_zero_based": 195742,
+          "step": 7
+        },
+        {
+          "start_zero_based": 221121,
+          "step": 7
+        },
+        {
+          "start_zero_based": 9894,
+          "step": 8
+        },
+        {
+          "start_zero_based": 84292,
+          "step": 8
+        },
+        {
+          "start_zero_based": 98977,
+          "step": 8
+        },
+        {
+          "start_zero_based": 105062,
+          "step": 8
+        },
+        {
+          "start_zero_based": 105687,
+          "step": 8
+        },
+        {
+          "start_zero_based": 108689,
+          "step": 8
+        },
+        {
+          "start_zero_based": 150475,
+          "step": 8
+        },
+        {
+          "start_zero_based": 151025,
+          "step": 8
+        },
+        {
+          "start_zero_based": 167980,
+          "step": 8
+        },
+        {
+          "start_zero_based": 175208,
+          "step": 8
+        },
+        {
+          "start_zero_based": 191709,
+          "step": 8
+        },
+        {
+          "start_zero_based": 220858,
+          "step": 8
+        },
+        {
+          "start_zero_based": 229844,
+          "step": 8
+        },
+        {
+          "start_zero_based": 292635,
+          "step": 8
+        },
+        {
+          "start_zero_based": 298159,
+          "step": 8
+        },
+        {
+          "start_zero_based": 26696,
+          "step": 9
+        },
+        {
+          "start_zero_based": 38378,
+          "step": 9
+        },
+        {
+          "start_zero_based": 48583,
+          "step": 9
+        },
+        {
+          "start_zero_based": 52357,
+          "step": 9
+        },
+        {
+          "start_zero_based": 72330,
+          "step": 9
+        },
+        {
+          "start_zero_based": 94036,
+          "step": 9
+        },
+        {
+          "start_zero_based": 115741,
+          "step": 9
+        },
+        {
+          "start_zero_based": 126415,
+          "step": 9
+        },
+        {
+          "start_zero_based": 127619,
+          "step": 9
+        },
+        {
+          "start_zero_based": 127837,
+          "step": 9
+        },
+        {
+          "start_zero_based": 131551,
+          "step": 9
+        },
+        {
+          "start_zero_based": 132972,
+          "step": 9
+        },
+        {
+          "start_zero_based": 162525,
+          "step": 9
+        },
+        {
+          "start_zero_based": 162677,
+          "step": 9
+        },
+        {
+          "start_zero_based": 211286,
+          "step": 9
+        },
+        {
+          "start_zero_based": 243649,
+          "step": 9
+        },
+        {
+          "start_zero_based": 272198,
+          "step": 9
+        },
+        {
+          "start_zero_based": 278790,
+          "step": 9
+        }
+      ],
+      "iid_expected_hits": 25417.271622131448,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "תאומים",
+      "word": "תאומים",
+      "original": "תאומים",
+      "hits": 60,
+      "locations_sample": [
+        {
+          "start_zero_based": 57429,
+          "step": 1
+        },
+        {
+          "start_zero_based": 59176,
+          "step": 16
+        },
+        {
+          "start_zero_based": 256738,
+          "step": 32
+        },
+        {
+          "start_zero_based": 295789,
+          "step": -39
+        },
+        {
+          "start_zero_based": 182425,
+          "step": 58
+        },
+        {
+          "start_zero_based": 74877,
+          "step": -62
+        },
+        {
+          "start_zero_based": 260305,
+          "step": -84
+        },
+        {
+          "start_zero_based": 296821,
+          "step": 98
+        },
+        {
+          "start_zero_based": 101122,
+          "step": 120
+        },
+        {
+          "start_zero_based": 166887,
+          "step": -179
+        },
+        {
+          "start_zero_based": 73839,
+          "step": -184
+        },
+        {
+          "start_zero_based": 60744,
+          "step": 194
+        },
+        {
+          "start_zero_based": 7615,
+          "step": -238
+        },
+        {
+          "start_zero_based": 89133,
+          "step": -267
+        },
+        {
+          "start_zero_based": 167195,
+          "step": 289
+        },
+        {
+          "start_zero_based": 236462,
+          "step": 305
+        },
+        {
+          "start_zero_based": 105318,
+          "step": 313
+        },
+        {
+          "start_zero_based": 286210,
+          "step": -329
+        },
+        {
+          "start_zero_based": 34595,
+          "step": 412
+        },
+        {
+          "start_zero_based": 99741,
+          "step": -443
+        },
+        {
+          "start_zero_based": 84707,
+          "step": -453
+        },
+        {
+          "start_zero_based": 3037,
+          "step": 494
+        },
+        {
+          "start_zero_based": 297404,
+          "step": -494
+        },
+        {
+          "start_zero_based": 288906,
+          "step": 505
+        },
+        {
+          "start_zero_based": 208948,
+          "step": 534
+        },
+        {
+          "start_zero_based": 72343,
+          "step": -565
+        },
+        {
+          "start_zero_based": 92632,
+          "step": -573
+        },
+        {
+          "start_zero_based": 51853,
+          "step": 583
+        },
+        {
+          "start_zero_based": 61108,
+          "step": -588
+        },
+        {
+          "start_zero_based": 179044,
+          "step": 590
+        },
+        {
+          "start_zero_based": 87896,
+          "step": -677
+        },
+        {
+          "start_zero_based": 74008,
+          "step": 680
+        },
+        {
+          "start_zero_based": 228264,
+          "step": 698
+        },
+        {
+          "start_zero_based": 109817,
+          "step": 705
+        },
+        {
+          "start_zero_based": 78757,
+          "step": -706
+        },
+        {
+          "start_zero_based": 192965,
+          "step": -767
+        },
+        {
+          "start_zero_based": 220600,
+          "step": -777
+        },
+        {
+          "start_zero_based": 214371,
+          "step": 783
+        },
+        {
+          "start_zero_based": 225588,
+          "step": -784
+        },
+        {
+          "start_zero_based": 19210,
+          "step": -791
+        },
+        {
+          "start_zero_based": 18467,
+          "step": -795
+        },
+        {
+          "start_zero_based": 131012,
+          "step": 808
+        },
+        {
+          "start_zero_based": 13206,
+          "step": 820
+        },
+        {
+          "start_zero_based": 280100,
+          "step": 828
+        },
+        {
+          "start_zero_based": 190527,
+          "step": -850
+        },
+        {
+          "start_zero_based": 269143,
+          "step": -863
+        },
+        {
+          "start_zero_based": 133276,
+          "step": -865
+        },
+        {
+          "start_zero_based": 288942,
+          "step": -878
+        },
+        {
+          "start_zero_based": 209744,
+          "step": 900
+        },
+        {
+          "start_zero_based": 241767,
+          "step": 904
+        },
+        {
+          "start_zero_based": 223519,
+          "step": 905
+        },
+        {
+          "start_zero_based": 182092,
+          "step": -913
+        },
+        {
+          "start_zero_based": 274901,
+          "step": -943
+        },
+        {
+          "start_zero_based": 40645,
+          "step": -959
+        },
+        {
+          "start_zero_based": 205514,
+          "step": -968
+        },
+        {
+          "start_zero_based": 287002,
+          "step": -968
+        },
+        {
+          "start_zero_based": 260757,
+          "step": 976
+        },
+        {
+          "start_zero_based": 241973,
+          "step": 981
+        },
+        {
+          "start_zero_based": 6489,
+          "step": -983
+        },
+        {
+          "start_zero_based": 266292,
+          "step": 997
+        }
+      ],
+      "iid_expected_hits": 54.225023207856275,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "מטוס",
+      "word": "מטוס",
+      "original": "מטוס",
+      "hits": 88,
+      "locations_sample": [
+        {
+          "start_zero_based": 274427,
+          "step": -1
+        },
+        {
+          "start_zero_based": 165004,
+          "step": 4
+        },
+        {
+          "start_zero_based": 221267,
+          "step": 6
+        },
+        {
+          "start_zero_based": 22198,
+          "step": 28
+        },
+        {
+          "start_zero_based": 238521,
+          "step": 43
+        },
+        {
+          "start_zero_based": 124786,
+          "step": -49
+        },
+        {
+          "start_zero_based": 209822,
+          "step": 52
+        },
+        {
+          "start_zero_based": 233702,
+          "step": -57
+        },
+        {
+          "start_zero_based": 188037,
+          "step": 75
+        },
+        {
+          "start_zero_based": 189598,
+          "step": -84
+        },
+        {
+          "start_zero_based": 225191,
+          "step": -89
+        },
+        {
+          "start_zero_based": 282326,
+          "step": 101
+        },
+        {
+          "start_zero_based": 206749,
+          "step": -114
+        },
+        {
+          "start_zero_based": 206381,
+          "step": 124
+        },
+        {
+          "start_zero_based": 161692,
+          "step": -126
+        },
+        {
+          "start_zero_based": 123038,
+          "step": 146
+        },
+        {
+          "start_zero_based": 59212,
+          "step": -176
+        },
+        {
+          "start_zero_based": 110180,
+          "step": -193
+        },
+        {
+          "start_zero_based": 248185,
+          "step": -196
+        },
+        {
+          "start_zero_based": 269703,
+          "step": -232
+        },
+        {
+          "start_zero_based": 190366,
+          "step": -239
+        },
+        {
+          "start_zero_based": 168380,
+          "step": -249
+        },
+        {
+          "start_zero_based": 23574,
+          "step": 258
+        },
+        {
+          "start_zero_based": 153221,
+          "step": 264
+        },
+        {
+          "start_zero_based": 92728,
+          "step": 267
+        },
+        {
+          "start_zero_based": 289286,
+          "step": -268
+        },
+        {
+          "start_zero_based": 249501,
+          "step": 276
+        },
+        {
+          "start_zero_based": 197180,
+          "step": 278
+        },
+        {
+          "start_zero_based": 138418,
+          "step": 282
+        },
+        {
+          "start_zero_based": 251796,
+          "step": 323
+        },
+        {
+          "start_zero_based": 112740,
+          "step": -336
+        },
+        {
+          "start_zero_based": 304783,
+          "step": -339
+        },
+        {
+          "start_zero_based": 156932,
+          "step": -358
+        },
+        {
+          "start_zero_based": 240104,
+          "step": -382
+        },
+        {
+          "start_zero_based": 277577,
+          "step": 383
+        },
+        {
+          "start_zero_based": 147159,
+          "step": -392
+        },
+        {
+          "start_zero_based": 162553,
+          "step": -409
+        },
+        {
+          "start_zero_based": 15862,
+          "step": -412
+        },
+        {
+          "start_zero_based": 132669,
+          "step": -438
+        },
+        {
+          "start_zero_based": 285208,
+          "step": -444
+        },
+        {
+          "start_zero_based": 136080,
+          "step": 446
+        },
+        {
+          "start_zero_based": 103429,
+          "step": -454
+        },
+        {
+          "start_zero_based": 138959,
+          "step": -471
+        },
+        {
+          "start_zero_based": 146655,
+          "step": -474
+        },
+        {
+          "start_zero_based": 288671,
+          "step": -482
+        },
+        {
+          "start_zero_based": 218790,
+          "step": -520
+        },
+        {
+          "start_zero_based": 206627,
+          "step": -529
+        },
+        {
+          "start_zero_based": 221506,
+          "step": 534
+        },
+        {
+          "start_zero_based": 100198,
+          "step": -546
+        },
+        {
+          "start_zero_based": 240962,
+          "step": -554
+        },
+        {
+          "start_zero_based": 57032,
+          "step": 569
+        },
+        {
+          "start_zero_based": 80305,
+          "step": -586
+        },
+        {
+          "start_zero_based": 55917,
+          "step": -591
+        },
+        {
+          "start_zero_based": 210503,
+          "step": -592
+        },
+        {
+          "start_zero_based": 98084,
+          "step": -627
+        },
+        {
+          "start_zero_based": 159433,
+          "step": 631
+        },
+        {
+          "start_zero_based": 246534,
+          "step": -638
+        },
+        {
+          "start_zero_based": 136951,
+          "step": -661
+        },
+        {
+          "start_zero_based": 160423,
+          "step": -673
+        },
+        {
+          "start_zero_based": 141916,
+          "step": -694
+        },
+        {
+          "start_zero_based": 207342,
+          "step": -695
+        },
+        {
+          "start_zero_based": 139198,
+          "step": -703
+        },
+        {
+          "start_zero_based": 157895,
+          "step": -705
+        },
+        {
+          "start_zero_based": 182877,
+          "step": 754
+        },
+        {
+          "start_zero_based": 240565,
+          "step": -756
+        },
+        {
+          "start_zero_based": 69262,
+          "step": 780
+        },
+        {
+          "start_zero_based": 242265,
+          "step": 781
+        },
+        {
+          "start_zero_based": 92155,
+          "step": -787
+        },
+        {
+          "start_zero_based": 124328,
+          "step": -793
+        },
+        {
+          "start_zero_based": 304180,
+          "step": -798
+        },
+        {
+          "start_zero_based": 74746,
+          "step": -802
+        },
+        {
+          "start_zero_based": 80527,
+          "step": -808
+        },
+        {
+          "start_zero_based": 169037,
+          "step": 826
+        },
+        {
+          "start_zero_based": 107072,
+          "step": 843
+        },
+        {
+          "start_zero_based": 203873,
+          "step": 851
+        },
+        {
+          "start_zero_based": 247921,
+          "step": -866
+        },
+        {
+          "start_zero_based": 288677,
+          "step": 870
+        },
+        {
+          "start_zero_based": 222400,
+          "step": -872
+        },
+        {
+          "start_zero_based": 138872,
+          "step": 884
+        },
+        {
+          "start_zero_based": 241675,
+          "step": -896
+        },
+        {
+          "start_zero_based": 135224,
+          "step": 899
+        },
+        {
+          "start_zero_based": 66899,
+          "step": -902
+        },
+        {
+          "start_zero_based": 191581,
+          "step": -903
+        },
+        {
+          "start_zero_based": 100587,
+          "step": 908
+        },
+        {
+          "start_zero_based": 247113,
+          "step": -917
+        },
+        {
+          "start_zero_based": 133995,
+          "step": 949
+        },
+        {
+          "start_zero_based": 247034,
+          "step": 955
+        },
+        {
+          "start_zero_based": 141286,
+          "step": 977
+        }
+      ],
+      "iid_expected_hits": 102.82471344539714,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "אש",
+      "word": "אש",
+      "original": "אש",
+      "hits": 2714810,
+      "locations_sample": [
+        {
+          "start_zero_based": 2,
+          "step": 1
+        },
+        {
+          "start_zero_based": 269,
+          "step": 1
+        },
+        {
+          "start_zero_based": 289,
+          "step": 1
+        },
+        {
+          "start_zero_based": 494,
+          "step": 1
+        },
+        {
+          "start_zero_based": 553,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1000,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1502,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1524,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1589,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1634,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1718,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1748,
+          "step": 1
+        },
+        {
+          "start_zero_based": 1799,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2072,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2190,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2225,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2326,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2585,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2606,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2745,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2758,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2813,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2857,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2893,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2928,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2951,
+          "step": 1
+        },
+        {
+          "start_zero_based": 2987,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3017,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3074,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3151,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3332,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3455,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3490,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3493,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3537,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3555,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3658,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3671,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3699,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3717,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3795,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3809,
+          "step": 1
+        },
+        {
+          "start_zero_based": 3966,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4007,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4137,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4226,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4410,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4678,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4943,
+          "step": 1
+        },
+        {
+          "start_zero_based": 4975,
+          "step": 1
+        },
+        {
+          "start_zero_based": 5323,
+          "step": 1
+        },
+        {
+          "start_zero_based": 5617,
+          "step": 1
+        },
+        {
+          "start_zero_based": 6673,
+          "step": 1
+        },
+        {
+          "start_zero_based": 6904,
+          "step": 1
+        },
+        {
+          "start_zero_based": 6998,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7041,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7158,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7503,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7656,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7679,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7725,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7867,
+          "step": 1
+        },
+        {
+          "start_zero_based": 7907,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8012,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8024,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8035,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8044,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8158,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8186,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8241,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8294,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8316,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8359,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8553,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8684,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8720,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8882,
+          "step": 1
+        },
+        {
+          "start_zero_based": 8991,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9013,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9037,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9097,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9168,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9387,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9428,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9765,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9893,
+          "step": 1
+        },
+        {
+          "start_zero_based": 9919,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10005,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10227,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10374,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10410,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10676,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10811,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10843,
+          "step": 1
+        },
+        {
+          "start_zero_based": 10942,
+          "step": 1
+        },
+        {
+          "start_zero_based": 11060,
+          "step": 1
+        },
+        {
+          "start_zero_based": 11094,
+          "step": 1
+        },
+        {
+          "start_zero_based": 11115,
+          "step": 1
+        },
+        {
+          "start_zero_based": 11388,
+          "step": 1
+        },
+        {
+          "start_zero_based": 11657,
+          "step": 1
+        }
+      ],
+      "iid_expected_hits": 2763811.6533218436,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    },
+    {
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "נפל",
+      "word": "נפל",
+      "original": "נפל",
+      "hits": 18606,
+      "locations_sample": [
+        {
+          "start_zero_based": 4460,
+          "step": 1
+        },
+        {
+          "start_zero_based": 6969,
+          "step": 1
+        },
+        {
+          "start_zero_based": 12447,
+          "step": 1
+        },
+        {
+          "start_zero_based": 17881,
+          "step": 1
+        },
+        {
+          "start_zero_based": 17907,
+          "step": 1
+        },
+        {
+          "start_zero_based": 33676,
+          "step": 1
+        },
+        {
+          "start_zero_based": 66156,
+          "step": 1
+        },
+        {
+          "start_zero_based": 81775,
+          "step": 1
+        },
+        {
+          "start_zero_based": 106872,
+          "step": 1
+        },
+        {
+          "start_zero_based": 108898,
+          "step": 1
+        },
+        {
+          "start_zero_based": 109574,
+          "step": 1
+        },
+        {
+          "start_zero_based": 128811,
+          "step": 1
+        },
+        {
+          "start_zero_based": 129702,
+          "step": 1
+        },
+        {
+          "start_zero_based": 157212,
+          "step": 1
+        },
+        {
+          "start_zero_based": 182774,
+          "step": 1
+        },
+        {
+          "start_zero_based": 182820,
+          "step": 1
+        },
+        {
+          "start_zero_based": 184256,
+          "step": 1
+        },
+        {
+          "start_zero_based": 196604,
+          "step": 1
+        },
+        {
+          "start_zero_based": 196652,
+          "step": 1
+        },
+        {
+          "start_zero_based": 196942,
+          "step": 1
+        },
+        {
+          "start_zero_based": 211076,
+          "step": 1
+        },
+        {
+          "start_zero_based": 211252,
+          "step": 1
+        },
+        {
+          "start_zero_based": 213367,
+          "step": 1
+        },
+        {
+          "start_zero_based": 229402,
+          "step": 1
+        },
+        {
+          "start_zero_based": 230006,
+          "step": 1
+        },
+        {
+          "start_zero_based": 266742,
+          "step": 1
+        },
+        {
+          "start_zero_based": 267207,
+          "step": 1
+        },
+        {
+          "start_zero_based": 267249,
+          "step": 1
+        },
+        {
+          "start_zero_based": 282920,
+          "step": 1
+        },
+        {
+          "start_zero_based": 284415,
+          "step": 1
+        },
+        {
+          "start_zero_based": 284683,
+          "step": 1
+        },
+        {
+          "start_zero_based": 298099,
+          "step": 1
+        },
+        {
+          "start_zero_based": 60690,
+          "step": 2
+        },
+        {
+          "start_zero_based": 87165,
+          "step": 2
+        },
+        {
+          "start_zero_based": 122002,
+          "step": 2
+        },
+        {
+          "start_zero_based": 122110,
+          "step": 2
+        },
+        {
+          "start_zero_based": 150533,
+          "step": 2
+        },
+        {
+          "start_zero_based": 152480,
+          "step": 2
+        },
+        {
+          "start_zero_based": 152574,
+          "step": 2
+        },
+        {
+          "start_zero_based": 154096,
+          "step": 2
+        },
+        {
+          "start_zero_based": 155203,
+          "step": 2
+        },
+        {
+          "start_zero_based": 159003,
+          "step": 2
+        },
+        {
+          "start_zero_based": 162083,
+          "step": 2
+        },
+        {
+          "start_zero_based": 162613,
+          "step": 2
+        },
+        {
+          "start_zero_based": 162794,
+          "step": 2
+        },
+        {
+          "start_zero_based": 177352,
+          "step": 2
+        },
+        {
+          "start_zero_based": 198178,
+          "step": 2
+        },
+        {
+          "start_zero_based": 203047,
+          "step": 2
+        },
+        {
+          "start_zero_based": 203195,
+          "step": 2
+        },
+        {
+          "start_zero_based": 203672,
+          "step": 2
+        },
+        {
+          "start_zero_based": 213329,
+          "step": 2
+        },
+        {
+          "start_zero_based": 252538,
+          "step": 2
+        },
+        {
+          "start_zero_based": 283333,
+          "step": 2
+        },
+        {
+          "start_zero_based": 45130,
+          "step": 3
+        },
+        {
+          "start_zero_based": 50767,
+          "step": 3
+        },
+        {
+          "start_zero_based": 182343,
+          "step": 3
+        },
+        {
+          "start_zero_based": 224607,
+          "step": 3
+        },
+        {
+          "start_zero_based": 234847,
+          "step": 3
+        },
+        {
+          "start_zero_based": 26256,
+          "step": 4
+        },
+        {
+          "start_zero_based": 84346,
+          "step": 4
+        },
+        {
+          "start_zero_based": 130258,
+          "step": 4
+        },
+        {
+          "start_zero_based": 154281,
+          "step": 4
+        },
+        {
+          "start_zero_based": 247458,
+          "step": 4
+        },
+        {
+          "start_zero_based": 295442,
+          "step": 4
+        },
+        {
+          "start_zero_based": 140569,
+          "step": 5
+        },
+        {
+          "start_zero_based": 168294,
+          "step": 5
+        },
+        {
+          "start_zero_based": 182774,
+          "step": 5
+        },
+        {
+          "start_zero_based": 190075,
+          "step": 5
+        },
+        {
+          "start_zero_based": 201634,
+          "step": 5
+        },
+        {
+          "start_zero_based": 206358,
+          "step": 5
+        },
+        {
+          "start_zero_based": 216874,
+          "step": 5
+        },
+        {
+          "start_zero_based": 232674,
+          "step": 5
+        },
+        {
+          "start_zero_based": 76070,
+          "step": 6
+        },
+        {
+          "start_zero_based": 84064,
+          "step": 6
+        },
+        {
+          "start_zero_based": 119286,
+          "step": 6
+        },
+        {
+          "start_zero_based": 123723,
+          "step": 6
+        },
+        {
+          "start_zero_based": 128386,
+          "step": 6
+        },
+        {
+          "start_zero_based": 138525,
+          "step": 6
+        },
+        {
+          "start_zero_based": 139478,
+          "step": 6
+        },
+        {
+          "start_zero_based": 202345,
+          "step": 6
+        },
+        {
+          "start_zero_based": 233615,
+          "step": 6
+        },
+        {
+          "start_zero_based": 3631,
+          "step": 7
+        },
+        {
+          "start_zero_based": 32070,
+          "step": 7
+        },
+        {
+          "start_zero_based": 74307,
+          "step": 7
+        },
+        {
+          "start_zero_based": 103605,
+          "step": 7
+        },
+        {
+          "start_zero_based": 174868,
+          "step": 7
+        },
+        {
+          "start_zero_based": 175113,
+          "step": 7
+        },
+        {
+          "start_zero_based": 211259,
+          "step": 7
+        },
+        {
+          "start_zero_based": 212070,
+          "step": 7
+        },
+        {
+          "start_zero_based": 231559,
+          "step": 7
+        },
+        {
+          "start_zero_based": 237136,
+          "step": 7
+        },
+        {
+          "start_zero_based": 237715,
+          "step": 7
+        },
+        {
+          "start_zero_based": 237851,
+          "step": 7
+        },
+        {
+          "start_zero_based": 237977,
+          "step": 7
+        },
+        {
+          "start_zero_based": 238107,
+          "step": 7
+        },
+        {
+          "start_zero_based": 238232,
+          "step": 7
+        },
+        {
+          "start_zero_based": 238527,
+          "step": 7
+        },
+        {
+          "start_zero_based": 259814,
+          "step": 7
+        },
+        {
+          "start_zero_based": 294327,
+          "step": 7
+        },
+        {
+          "start_zero_based": 11584,
+          "step": 8
+        }
+      ],
+      "iid_expected_hits": 18164.536176146845,
+      "iid_poisson_approx_p_at_least_one": 1.0
+    }
+  ],
+  "null_model_results": [
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "רבין",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 0.9090909090909091,
+      "exceedances": 9,
+      "null_mean_hits": 2787.2,
+      "null_min_hits": 2703,
+      "null_max_hits": 2886
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "קנדי",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 0.09090909090909091,
+      "exceedances": 0,
+      "null_mean_hits": 737.7,
+      "null_min_hits": 695,
+      "null_max_hits": 765
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "סאדאת",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 0.45454545454545453,
+      "exceedances": 4,
+      "null_mean_hits": 36.6,
+      "null_min_hits": 27,
+      "null_max_hits": 44
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "היטלר",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 0.5454545454545454,
+      "exceedances": 5,
+      "null_mean_hits": 145.0,
+      "null_min_hits": 119,
+      "null_max_hits": 154
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "שואה",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 25340.4,
+      "null_min_hits": 25184,
+      "null_max_hits": 25720
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "תאומים",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 0.5454545454545454,
+      "exceedances": 5,
+      "null_mean_hits": 59.1,
+      "null_min_hits": 46,
+      "null_max_hits": 69
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "מטוס",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 102.2,
+      "null_min_hits": 88,
+      "null_max_hits": 127
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "אש",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 2763885.0,
+      "null_min_hits": 2761413,
+      "null_max_hits": 2765935
+    },
+    {
+      "model": "iid_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "נפל",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261025,
+        20261026,
+        20261027,
+        20261028,
+        20261029,
+        20261030,
+        20261031,
+        20261032,
+        20261033,
+        20261034
+      ],
+      "empirical_p_plus_one": 0.09090909090909091,
+      "exceedances": 0,
+      "null_mean_hits": 18186.9,
+      "null_min_hits": 17967,
+      "null_max_hits": 18414
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "רבין",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 2802.3,
+      "null_min_hits": 2725,
+      "null_max_hits": 2844
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "קנדי",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 0.09090909090909091,
+      "exceedances": 0,
+      "null_mean_hits": 723.1,
+      "null_min_hits": 667,
+      "null_max_hits": 758
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "סאדאת",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 0.6363636363636364,
+      "exceedances": 6,
+      "null_mean_hits": 38.7,
+      "null_min_hits": 31,
+      "null_max_hits": 45
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "היטלר",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 0.2727272727272727,
+      "exceedances": 2,
+      "null_mean_hits": 137.6,
+      "null_min_hits": 118,
+      "null_max_hits": 157
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "שואה",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 25445.4,
+      "null_min_hits": 25181,
+      "null_max_hits": 25630
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "תאומים",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 0.18181818181818182,
+      "exceedances": 1,
+      "null_mean_hits": 51.9,
+      "null_min_hits": 47,
+      "null_max_hits": 61
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "מטוס",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 0.8181818181818182,
+      "exceedances": 8,
+      "null_mean_hits": 101.9,
+      "null_min_hits": 84,
+      "null_max_hits": 117
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "אש",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 2764148.8,
+      "null_min_hits": 2761603,
+      "null_max_hits": 2766584
+    },
+    {
+      "model": "block_perm",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "נפל",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261035,
+        20261036,
+        20261037,
+        20261038,
+        20261039,
+        20261040,
+        20261041,
+        20261042,
+        20261043,
+        20261044
+      ],
+      "empirical_p_plus_one": 0.36363636363636365,
+      "exceedances": 3,
+      "null_mean_hits": 18634.2,
+      "null_min_hits": 18511,
+      "null_max_hits": 18914
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "רבין",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.9090909090909091,
+      "exceedances": 9,
+      "null_mean_hits": 2803.2,
+      "null_min_hits": 2700,
+      "null_max_hits": 2866
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "קנדי",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.18181818181818182,
+      "exceedances": 1,
+      "null_mean_hits": 735.8,
+      "null_min_hits": 689,
+      "null_max_hits": 792
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "סאדאת",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.5454545454545454,
+      "exceedances": 5,
+      "null_mean_hits": 39.1,
+      "null_min_hits": 32,
+      "null_max_hits": 48
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "היטלר",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.45454545454545453,
+      "exceedances": 4,
+      "null_mean_hits": 143.4,
+      "null_min_hits": 131,
+      "null_max_hits": 162
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "שואה",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.7272727272727273,
+      "exceedances": 7,
+      "null_mean_hits": 25311.6,
+      "null_min_hits": 24666,
+      "null_max_hits": 25688
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "תאומים",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.18181818181818182,
+      "exceedances": 1,
+      "null_mean_hits": 50.4,
+      "null_min_hits": 42,
+      "null_max_hits": 63
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "מטוס",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.9090909090909091,
+      "exceedances": 9,
+      "null_mean_hits": 101.2,
+      "null_min_hits": 83,
+      "null_max_hits": 123
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "אש",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 1.0,
+      "exceedances": 10,
+      "null_mean_hits": 2763637.5,
+      "null_min_hits": 2721061,
+      "null_max_hits": 2805056
+    },
+    {
+      "model": "markov",
+      "group": "Exploratory example terms; preregister the protocol before interpretation",
+      "label": "נפל",
+      "permutations": 10,
+      "seed_base": 20261025,
+      "replicate_seeds": [
+        20261045,
+        20261046,
+        20261047,
+        20261048,
+        20261049,
+        20261050,
+        20261051,
+        20261052,
+        20261053,
+        20261054
+      ],
+      "empirical_p_plus_one": 0.2727272727272727,
+      "exceedances": 2,
+      "null_mean_hits": 18344.1,
+      "null_min_hits": 18087,
+      "null_max_hits": 18788
+    }
+  ],
+  "notes": [
+    "Exploratory terms; not preregistered predictions.",
+    "IID/Poisson values are reference approximations, not calibrated empirical p-values.",
+    "Each null model preserves different corpus properties.",
+    "Coordinates are zero-based in normalized text.",
+    "This 10-replica pilot is superseded by the 100-replica analysis."
+  ]
+}

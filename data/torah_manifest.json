@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-10-25T15:15:17.069516+00:00",
+  "source_collection": "Sefaria-Export static JSON files in Google Cloud Storage; no API endpoint used",
+  "source_index": "https://github.com/Sefaria/Sefaria-Export",
+  "version_title": "Tanach with Text Only",
+  "version_source": "http://www.tanach.us/Tanach.xml",
+  "language": "Hebrew",
+  "license": "Public Domain",
+  "books_canonical_order": [
+    "Genesis",
+    "Exodus",
+    "Leviticus",
+    "Numbers",
+    "Deuteronomy"
+  ],
+  "normalization": "NFD; remove Unicode combining marks; keep Hebrew letters Alef-Tav including final forms; remove all other characters",
+  "verse_separator_in_raw_file": "newline",
+  "raw_text_file": "data\\torah_hebrew.txt",
+  "raw_text_sha256": "c1ec94e8f90c362424bf5fb6b7407ac097d3ab999c082222ba3f5cdd505ab9d4",
+  "els_text_file": "data\\torah_els.txt",
+  "els_text_sha256": "25ec653a8ace4263331f85048e5a3bf08487119f7d9cf6684e345eea7a149270",
+  "normalized_letter_count": 305172,
+  "distinct_symbols": 27,
+  "merged_final_forms_alternative": {
+    "file": "data\\torah_els_merged_finals.txt",
+    "sha256": "756c211928a017b874705151f11dedd470f0fb6509342d8a758742e948cb349f",
+    "letter_count": 305172,
+    "normalization": "same as primary corpus, then map ךםןףץ to כמנפצ"
+  },
+  "chapter_count": 187,
+  "verse_count": 5846,
+  "source_files": [
+    {
+      "book": "Genesis",
+      "file": "data\\source\\sefaria\\Genesis_Hebrew_Tanach_with_Text_Only.json",
+      "url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Genesis/Hebrew/Tanach%20with%20Text%20Only.json",
+      "sha256": "f2d50dfc57b307b27df8d4f00f0d75065ded8424b64202a5774a7380fa39b39d",
+      "version_title": "Tanach with Text Only",
+      "version_source": "http://www.tanach.us/Tanach.xml",
+      "language": "he",
+      "license": "Public Domain",
+      "chapter_count": 50,
+      "verse_count": 1533
+    },
+    {
+      "book": "Exodus",
+      "file": "data\\source\\sefaria\\Exodus_Hebrew_Tanach_with_Text_Only.json",
+      "url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Exodus/Hebrew/Tanach%20with%20Text%20Only.json",
+      "sha256": "0cc0aeb57d166de44ffa167b6d9ad93992ed0e28b5fea05119cafd9377ea1120",
+      "version_title": "Tanach with Text Only",
+      "version_source": "http://www.tanach.us/Tanach.xml",
+      "language": "he",
+      "license": "Public Domain",
+      "chapter_count": 40,
+      "verse_count": 1210
+    },
+    {
+      "book": "Leviticus",
+      "file": "data\\source\\sefaria\\Leviticus_Hebrew_Tanach_with_Text_Only.json",
+      "url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Leviticus/Hebrew/Tanach%20with%20Text%20Only.json",
+      "sha256": "11c362e0fd14eb3f962a629b9d26ae1a0bb0c1e67fd623ffc1d04c295f9a04d6",
+      "version_title": "Tanach with Text Only",
+      "version_source": "http://www.tanach.us/Tanach.xml",
+      "language": "he",
+      "license": "Public Domain",
+      "chapter_count": 27,
+      "verse_count": 859
+    },
+    {
+      "book": "Numbers",
+      "file": "data\\source\\sefaria\\Numbers_Hebrew_Tanach_with_Text_Only.json",
+      "url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Numbers/Hebrew/Tanach%20with%20Text%20Only.json",
+      "sha256": "f676d28b090ced9d2b31f3184b4a02f16de6706d8eb1f734782e869be5edce18",
+      "version_title": "Tanach with Text Only",
+      "version_source": "http://www.tanach.us/Tanach.xml",
+      "language": "he",
+      "license": "Public Domain",
+      "chapter_count": 36,
+      "verse_count": 1288
+    },
+    {
+      "book": "Deuteronomy",
+      "file": "data\\source\\sefaria\\Deuteronomy_Hebrew_Tanach_with_Text_Only.json",
+      "url": "https://storage.googleapis.com/sefaria-export/json/Tanakh/Torah/Deuteronomy/Hebrew/Tanach%20with%20Text%20Only.json",
+      "sha256": "401356ce97c5ac370d73aaee6e76208e0b44810bffd992366355004dce62c795",
+      "version_title": "Tanach with Text Only",
+      "version_source": "http://www.tanach.us/Tanach.xml",
+      "language": "he",
+      "license": "Public Domain",
+      "chapter_count": 34,
+      "verse_count": 956
+    }
+  ]
+}
